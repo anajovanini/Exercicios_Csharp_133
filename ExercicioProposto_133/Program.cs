@@ -45,13 +45,12 @@ namespace ExercicioProposto_133
                 }
 
                 Console.WriteLine();
+            }
                 Console.WriteLine("PRICE TAGS");
                 foreach (CommonProduct p in list)
                 {
                     Console.WriteLine(p.Name + p.PriceTag());
                 }
-
-            }
         }
     }
 }
